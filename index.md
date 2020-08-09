@@ -42,8 +42,8 @@
       }
       .grid-container {
         display: grid;
-        grid-template-columns: 33vw 33vw 33vw;
-        grid-template-rows: 48vh 48vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
       }
       
       .two, .four, .five {

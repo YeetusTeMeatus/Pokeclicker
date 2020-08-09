@@ -219,7 +219,6 @@
       cater: 0,
       karp: 0
     }
-
     function morepoke() {
       gameData.pokes += gameData.pokesPerClick
       gameData.totalpokes += gameData.pokesPerClick
@@ -227,7 +226,6 @@
       document.getElementById("pokesgot").innerHTML = gameData.pokes + " Pokecoins"
       document.getElementById("title").innerHTML = gameData.pokes + " Pokecoins"
     }
-    
     function bulbasaur() {
       gameData.bulb += 1
       setInterval(function(){ checker(); }, 1000);
@@ -240,7 +238,6 @@
         x[i].style.display = 'none';
       }
     }
-    
     function charmander() {
       gameData.charm += 1
       setInterval(function(){ checker(); }, 1000);
@@ -253,7 +250,6 @@
         x[i].style.display = 'none';
       }
     }
-    
     function squirtle() {
       gameData.squirt += 1
       setInterval(function(){ checker(); }, 1000);
@@ -266,7 +262,6 @@
         x[i].style.display = 'none';
       }
     }
-
     function buyrattata() {
       if (gameData.pokes >= gameData.ratcost) {
         gameData.pokes -= gameData.ratcost
@@ -276,7 +271,6 @@
         document.getElementById('ratcount').innerHTML = gameData.rat
       }
     }
-
     function buypidgey() {
       if (gameData.pokes >= gameData.pidgecost) {
         gameData.pokes -= gameData.pidgecost
@@ -286,7 +280,6 @@
         document.getElementById('pidgecount').innerHTML = gameData.pidge
       }
     }
-
     function buynidogirl() {
       if (gameData.pokes >= gameData.nidogirlcost) {
         gameData.pokes -= gameData.nidogirlcost
@@ -296,7 +289,6 @@
         document.getElementById('nidogirlcount').innerHTML = gameData.nidogirl
       }
     }
-
     function buynidoboy() {
       if (gameData.pokes >= gameData.nidoboycost) {
         gameData.pokes -= gameData.nidoboycost
@@ -306,7 +298,6 @@
         document.getElementById('nidoboycount').innerHTML = gameData.nidoboy
       }
     }
-
     function buycater() {
       if (gameData.pokes >= gameData.catercost) {
         gameData.pokes -= gameData.catercost
@@ -316,7 +307,6 @@
         document.getElementById('catercount').innerHTML = gameData.cater
       }
     }
-
     function buykarp() {
       if (gameData.pokes >= gameData.karpcost) {
         gameData.pokes -= gameData.karpcost
@@ -326,7 +316,6 @@
         document.getElementById('karpcount').innerHTML = gameData.karp
       }
     }
-
     function buyoldrod() {
       if (gameData.pokes >= 150) {
         gameData.pokes -= 150
@@ -339,7 +328,6 @@
         }
       }
     }
-    
     function checker() {
       if (gameData.bulb >= 1) {
         document.getElementById('bulb').style.display = 'inline';

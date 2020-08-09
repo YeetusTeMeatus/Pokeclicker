@@ -7,6 +7,9 @@
         background-size: cover;
         font-family: monospace;
       }
+      .wrapper {
+       max-width:0
+      }
       p {
         position: relative;
         z-index: 1;
@@ -346,6 +349,12 @@
       }
       if (gameData.karp >= 1) {
         document.getElementById('karp').style.display = 'inline';
+      }
+      if (gameData.nidoboy >= 1) {
+        document.getElementById('nidoboy').style.display = 'inline';
+      }
+      if (gameData.cater >= 1) {
+        document.getElementById('cater').style.display = 'inline';
       }
       if (gameData.pokes >= 10) {
         document.getElementById('oaktext').innerHTML = "Great! Now you can use your pokecoins to catch a Pokémon! Catch a Rattata now!"        

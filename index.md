@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title id="title"> 0 Pokes </title>

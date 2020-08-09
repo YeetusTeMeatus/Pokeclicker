@@ -45,19 +45,13 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
       }
-      
       .two, .four, .five {
         overflow: auto;
       }
-
       .one { grid-area: 1 / 1 / 2 / 2; }
-
       .two { grid-area: 2 / 1 / 3 / 2; }
-
       .three { grid-area: 1 / 2 / 3 / 3; }
-
       .four { grid-area: 1 / 3 / 2 / 4; }
-
       .five { grid-area: 2 / 3 / 3 / 4; }
     </style>
   </head>

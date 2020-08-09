@@ -10,6 +10,7 @@
       p {
         position: relative;
         z-index: 1;
+        color: black
       }
       .entry {
         display: none;

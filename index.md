@@ -8,7 +8,7 @@
         font-family: monospace;
       }
       .wrapper {
-       max-width:0
+       max-width:none;
       }
       p {
         position: relative;
